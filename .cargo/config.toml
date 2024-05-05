@@ -2,3 +2,6 @@
 xtask = "run --package xtask --"
 [doc.extern-map.registries]
 crates-io = "https://docs.rs/"
+
+[patch.crates-io]
+displaydoc = { git = "https://github.com/akonradi-signal/displaydoc.git", branch = "anonymous-const" }
